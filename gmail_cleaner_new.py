@@ -2,6 +2,14 @@ import imaplib
 import json
 import time
 import sys
+import os
+from dotenv import load_dotenv
+
+# Load variables from .env in the current directory (or parent tree)
+load_dotenv()  # looks for a .env file automatically
+
+EMAIL_USER = os.getenv("GMAIL_USER")
+APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
 
 IMAP_SERVER = "imap.gmail.com"
 IMAP_PORT = 993
@@ -219,8 +227,10 @@ if __name__ == "__main__":
         # email_user = input("Enter Gmail address: ").strip()
         # app_password = input("Enter Gmail App Password: ").strip()
 
-        email_user = "monuthomas123@gmail.com"
-        app_password = "crrb foxa anfx xnjm"
+        email_user = EMAIL_USER
+        app_password = APP_PASSWORD
+
+        print(f"Using email user: {email_user}")
 
         process_filters(email_user, app_password)
 

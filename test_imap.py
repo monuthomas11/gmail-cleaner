@@ -3,6 +3,15 @@ from imapclient import IMAPClient
 import sys
 import traceback
 import time
+import os
+from dotenv import load_dotenv
+
+# Load variables from .env in the current directory (or parent tree)
+load_dotenv()  # looks for a .env file automatically
+
+EMAIL_USER = os.getenv("GMAIL_USER")
+APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
+
 
 # -----------------------------
 # CONFIG
@@ -101,11 +110,22 @@ if __name__ == "__main__":
     try:
         print("Gmail IMAP Cleaner")
 
-        # email_user = input("Enter Gmail address: ").strip()
-        # app_password = input("Enter Gmail App Password: ").strip()
+        # Environment variable names supported:
+        # - GMAIL_USER or EMAIL_USER
+        # - GMAIL_APP_PASSWORD or APP_PASSWORD
+        email_user = EMAIL_USER 
+        app_password = APP_PASSWORD
 
-        email_user = "monuthomas123@gmail.com"
-        app_password = "crrb foxa anfx xnjm"
+        print(f"Using email user: {email_user}")
+        print(f"Using app password: {'*' * len(app_password) if app_password else None}")
+
+        if not email_user or not app_password:
+            print("Missing credentials. Set environment variables or create a .env file with:")
+            print("  GMAIL_USER=you@example.com")
+            print("  GMAIL_APP_PASSWORD=your-app-password")
+            print("Or export environment variables before running. Example (PowerShell):")
+            print("  $env:GMAIL_USER='you@example.com'; $env:GMAIL_APP_PASSWORD='your-app-password'; python .\\test_imap.py")
+            sys.exit(1)
 
         process_filters(email_user, app_password)
 
