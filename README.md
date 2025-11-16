@@ -99,3 +99,7 @@ This avoids keeping credentials in the repository.
 ---
 
 If you want, I can add a `--dry-run` option and a small CLI wrapper next (I can implement environment-variable credentials reading too). Which would you like next?
+
+**Commands**
+python gmail_cleaner_new.py
+python restore_trash_mails.py
