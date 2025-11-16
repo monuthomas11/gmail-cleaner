@@ -1,0 +1,50 @@
+[
+    {
+        "query": "from:noreply@glassdoor.com",
+        "actions": {
+            "trash": true
+        }
+    },
+     {
+        "query": "from:info@holiday-factory.net",
+        "actions": {
+            "trash": true
+        }
+    }{
+        "query": "from:info@mp1.tripadvisor.com",
+        "actions": {
+            "trash": true
+        }
+    },
+    {
+        "query": "from:newjobs@naukrigulf.com",
+        "actions": {
+            "trash": true
+        }
+    },
+    {
+        "query": "from:hello@androidauthority.com",
+        "actions": {
+            "trash": true
+        }
+    }
+    ,
+    {
+        "query": "from:noreply@neucard.tataneu.com",
+        "actions": {
+            "trash": true
+        }
+    },
+    {
+        "query": "from:info@naukri.com",
+        "actions": {
+            "trash": true
+        }
+    },
+    {
+        "query": "from:innercircle@tajhotels.com",
+        "actions": {
+            "trash": true
+        }
+    }
+]
