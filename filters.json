@@ -1,61 +1,61 @@
 [
     {
-        "query": "from:no-reply@mailer.kfc.co.in is:unimportant",
+        "query": "from:no-reply@mailer.kfc.co.in",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:jobalerts-noreply@linkedin.com is:unimportant",
-        "actions": {
-            "trash": true
-        }
-    },
-    
-    {
-        "query": "from:noreply@zen-makemytrip.com is:unimportant",
+        "query": "from:jobalerts-noreply@linkedin.com",
         "actions": {
             "trash": true
         }
     },
     
     {
-        "query": "from:no-reply@primevideo.com is:unimportant",
+        "query": "from:noreply@zen-makemytrip.com",
         "actions": {
             "trash": true
         }
     },
     
     {
-        "query": "from:creditcard+ratealert@bankbazaar.com is:unimportant",
+        "query": "from:no-reply@primevideo.com",
         "actions": {
             "trash": true
         }
     },
     
     {
-        "query": "from:reminders@123greetings.com is:unimportant",
+        "query": "from:creditcard+ratealert@bankbazaar.com",
         "actions": {
             "trash": true
         }
     },
     
     {
-        "query": "from:no-reply@spotify.com is:unimportant",
+        "query": "from:reminders@123greetings.com",
         "actions": {
             "trash": true
         }
     },
     
     {
-        "query": "from:notifications@info.clubapparel.com is:unimportant",
+        "query": "from:no-reply@spotify.com",
         "actions": {
             "trash": true
         }
     },
     
     {
-        "query": "from:noreply@mailers.zomato.com is:unimportant",
+        "query": "from:notifications@info.clubapparel.com",
+        "actions": {
+            "trash": true
+        }
+    },
+    
+    {
+        "query": "from:noreply@mailers.zomato.com",
         "actions": {
             "trash": true
         }
@@ -63,111 +63,111 @@
     ,
     
     {
-        "query": "from:info@promos.zillionrewards.com is:unimportant",
+        "query": "from:info@promos.zillionrewards.com",
         "actions": {
             "trash": true
         }
     },
     
     {
-        "query": "from:tatacliq@mall.tatacliq.com is:unimportant",
+        "query": "from:tatacliq@mall.tatacliq.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:contest@techgig.com is:unimportant",
+        "query": "from:contest@techgig.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:jobs@gotogulf.com is:unimportant",
+        "query": "from:jobs@gotogulf.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:info@connect.netmeds.com is:unimportant",
+        "query": "from:info@connect.netmeds.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:no-reply@mail.goodreads.com is:unimportant",
+        "query": "from:no-reply@mail.goodreads.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:no-reply@mail.instagram.com is:unimportant",
+        "query": "from:no-reply@mail.instagram.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:mail@update.strava.com is:unimportant",
+        "query": "from:mail@update.strava.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:lenovo@ecomm.lenovo.com is:unimportant",
+        "query": "from:lenovo@ecomm.lenovo.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:info@motorola-mail.com is:unimportant",
+        "query": "from:info@motorola-mail.com",
         "actions": {
             "trash": true
         }
     }
     ,
     {
-        "query": "from:support@sgeme.com is:unimportant",
+        "query": "from:support@sgeme.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:no-reply@swiggy.in is:unimportant",
+        "query": "from:no-reply@swiggy.in",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:alert@indeed.com is:unimportant",
+        "query": "from:alert@indeed.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:jobs@gulftalent.com is:unimportant",
+        "query": "from:jobs@gulftalent.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:support@happinesslab.ae is:unimportant",
+        "query": "from:support@happinesslab.ae",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:newsletter@email.fcbarcelona.com is:unimportant",
+        "query": "from:newsletter@email.fcbarcelona.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:hello@info.etmoney.com is:unimportant",
+        "query": "from:hello@info.etmoney.com",
         "actions": {
             "trash": true
         }
     },
     {
-        "query": "from:hello@etmoney.com is:unimportant",
+        "query": "from:hello@etmoney.com",
         "actions": {
             "trash": true
         }
